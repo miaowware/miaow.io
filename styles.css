@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
+html {
+    height: 100%;
+}
+
 body {
     font-family: 'Inconsolata', monospace;
     background-color: black;
     color: white;
+    height: 100%;
+    margin: 0;
 }
 
 #logo-container {
@@ -74,9 +80,16 @@ a:active {
     text-decoration: underline;
 }
 
+/* screen width changes */
 @media only screen and (max-width: 1400px) {
     #content {
         margin-left: 20%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #content {
+        margin-left: 15%;
     }
 }
 
@@ -93,8 +106,7 @@ a:active {
     }
 
     #content {
-        margin-left: 5%;
-        margin-right: auto;
+        margin-left: 2%;
     }
 }
 
