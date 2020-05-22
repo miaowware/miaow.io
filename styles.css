@@ -33,10 +33,10 @@ ul {
 
 #content {
     margin-left: 35%;
-    margin-right: auto;
+    margin-right: 2%;
 }
 
-.links .link {
+.link {
     padding-top: 0.2em;
     padding-bottom: 0.2em;
 }
@@ -103,6 +103,10 @@ a:active {
     #logo {
         width: auto;
         height: 128px;
+    }
+
+    .description {
+        visibility: visible;
     }
 
     #content {
