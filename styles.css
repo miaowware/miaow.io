@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body {
+    font-family: 'Inconsolata', monospace;
+    background-color: black;
+    color: white;
+}
+
+#logo-container {
+    text-align: center;
+}
+
+#logo {
+    width: 20%;
+    max-width: 460px;
+}
+
+.prompt {
+    color: #f7a8da;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0.35em;
+}
+
+#content {
+    margin-left: 35%;
+    margin-right: auto;
+}
+
+.links .link {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+.link a:before {
+    content: "- ";
+}
+
+.link:hover a:before {
+    content: "> ";
+}
+
+.link:hover a {
+    color: #f7931e;
+}
+
+.link:hover .description {
+    visibility: visible;
+}
+
+.description {
+    visibility: hidden;
+    color: #ccc;
+}
+
+.description:before {
+    content: "// ";
+}
+
+a:link, a:visited {
+    color: #eee;
+    text-decoration: none;
+}
+
+a:hover, a:visited:hover {
+    color: #f7931e;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1400px) {
+    #content {
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #content {
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #logo {
+        width: auto;
+        height: 128px;
+    }
+
+    #content {
+        margin-left: 5%;
+        margin-right: auto;
+    }
+}
+
+/* detect touchscreens (more-or-less) */
+@media (pointer: none), (pointer:coarse) {
+    .description {
+        visibility: visible;
+    }
+}
