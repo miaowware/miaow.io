@@ -1,0 +1,27 @@
+social:
+    - title: discord server
+      description: for support, questions, and development news
+      url: https://discord.gg/SwyjdDN
+    - title: github org
+      description: where all the magic happens
+      url: https://github.com/miaowware
+
+projects:
+    - title: qrm
+      description: a Discord bot with ham radio functions
+      url: https://github.com/miaowware/qrm2
+    - title: ae7qparser
+      description: an ae7q.com parser for modern ham radio programs
+      url: https://github.com/miaowware/ae7qparser
+    - title: ctyparser
+      description: a CTY.DAT parser for modern amateur radio programs
+      url: https://github.com/miaowware/ctyparser
+    - title: fccbot
+      description: a Discord bot for server administration and logging
+      url: https://github.com/miaowware/fccbot
+    - title: fccbot-server
+      description: the server component of fccbot
+      url: https://github.com/miaowware/fccbot-server
+    - title: bolt-discord
+      description: a discord.py-based bot framework
+      url: https://github.com/miaowware/bolt-discord
