@@ -27,9 +27,9 @@ projects:
       url: https://github.com/miaowware/bolt-discord
 
 mail:
-    - title: devs
+    - title: dev@miaow.io
       description: send the devs a note
       url: mailto:dev@miaow.io
-    - title: security
+    - title: security@miaow.io
       description: report a security issue
       url: mailto:security@miaow.io
