@@ -6,10 +6,14 @@ social:
       description: where all the magic happens
       url: https://github.com/miaowware
 
-projects:
+discord bots:
     - title: qrm
       description: a Discord bot with ham radio functions
       url: https://github.com/miaowware/qrm2
+    - title: fccbot
+      description: a Discord bot for server administration and logging
+      url: https://github.com/miaowware/fccbot
+python libraries:
     # - title: ae7qparser
     #   description: an ae7q.com parser for modern ham radio programs
     #   url: https://github.com/miaowware/ae7qparser
@@ -19,9 +23,6 @@ projects:
     - title: gridtools
       description: A small Python library to convert between maidenhead grid locators and lat/long coördinates
       url: https://gridtools.miaow.io
-    - title: fccbot
-      description: a Discord bot for server administration and logging
-      url: https://github.com/miaowware/fccbot
     # - title: fccbot-server
     #   description: the server component of fccbot
     #   url: https://github.com/miaowware/fccbot-server
