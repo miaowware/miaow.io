@@ -23,6 +23,9 @@ python libraries:
     - title: gridtools
       description: A small Python library to convert between maidenhead grid locators and lat/long coördinates
       url: https://gridtools.miaow.io
+    - title: qrztools
+      description: A QRZ.com API interface in Python with sync and async support
+      url: https://qrztools.miaow.io
     # - title: fccbot-server
     #   description: the server component of fccbot
     #   url: https://github.com/miaowware/fccbot-server
