@@ -40,3 +40,11 @@ mail:
     - title: security@miaow.io
       description: report a security issue
       url: mailto:security@miaow.io
+
+donate:
+    - title: ko-fi
+      description: tip us!
+      url: https://ko-fi.com/miaowware
+    - title: liberapay
+      description: tip us!
+      url: https://liberapay.com/miaowware
