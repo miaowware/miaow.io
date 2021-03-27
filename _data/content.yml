@@ -26,6 +26,9 @@ python libraries:
     - title: qrztools
       description: A QRZ.com API interface in Python with sync and async support
       url: https://qrztools.miaow.io
+    - title: callooktools
+      description: A callook.info API interface in Python with sync and async support
+      url: https://callooktools.miaow.io
     # - title: fccbot-server
     #   description: the server component of fccbot
     #   url: https://github.com/miaowware/fccbot-server
