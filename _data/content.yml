@@ -2,17 +2,21 @@ social:
     - title: discord
       description: for support, questions, and development news
       url: https://discord.gg/SwyjdDN
+    - title: irc.libera.chat \#miaowware
+      description: for support and questions, linked to the discord
+      url: https://web.libera.chat/?channel=#miaowware
     - title: github
       description: where all the magic happens
       url: https://github.com/miaowware
 
+utilities:
+    - title: least
+      description: a simple terminal pager, written in Rust
+      url: https://github.com/miaowware/least
 discord bots:
     - title: qrm
       description: a Discord bot with ham radio functions
       url: https://github.com/miaowware/qrm2
-    - title: fccbot
-      description: a Discord bot for server administration and logging
-      url: https://github.com/miaowware/fccbot
 python libraries:
     # - title: ae7qparser
     #   description: an ae7q.com parser for modern ham radio programs
@@ -29,14 +33,11 @@ python libraries:
     - title: callooktools
       description: A callook.info API interface in Python with sync and async support
       url: https://callooktools.miaow.io
-    # - title: fccbot-server
-    #   description: the server component of fccbot
-    #   url: https://github.com/miaowware/fccbot-server
     # - title: bolt-discord
     #   description: a discord.py-based bot framework
     #   url: https://github.com/miaowware/bolt-discord
 
-mail:
+email:
     - title: dev@miaow.io
       description: send the devs a note
       url: mailto:dev@miaow.io
