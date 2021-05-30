@@ -2,7 +2,7 @@ social:
     - title: discord
       description: for support, questions, and development news
       url: https://discord.gg/SwyjdDN
-    - title: irc.libera.chat \#miaowware
+    - title: "irc.libera.chat #miaowware"
       description: for support and questions, linked to the discord
       url: https://web.libera.chat/?channel=#miaowware
     - title: github
