@@ -27,6 +27,9 @@ python libraries:
     - title: callsignlookuptools
       description: A QRZ, Callook, HamQTH, and QRZCQ API interface in Python with sync and async support
       url: https://callsignlookuptools.miaow.io
+    - title: discord-styled-text
+      description: A small library to style text for Discord without having to remember any syntax
+      url: https://discord-styled-text.miaow.io/
 
 email:
     - title: dev@miaow.io
